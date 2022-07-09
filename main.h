@@ -6,7 +6,7 @@
 #include <unistd.h>
 /* write functions */
 int _putchar(char c);
-
+int _printf(const char *format, ...);
 
 
 
