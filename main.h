@@ -7,6 +7,7 @@
 /* write functions */
 int _putchar(char c);
 int _printf(const char *format, ...);
+int _puts(char *str);
 
 /**
  * struct flags - struct containing flags to "turn on"
