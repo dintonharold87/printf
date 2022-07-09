@@ -14,6 +14,7 @@ int _printf(const char *format, ...)
 	va_list arguments;
 
 	flags flagz = {0, 0, 0};
+
 	register int count = 0;
 
 	va_start(arguments, format);
