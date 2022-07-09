@@ -22,7 +22,8 @@ typedef struct flags
 	int hash;
 } flags;
 
-
+/* prototype for getting flags or call flags */
+int call_flag(char s, flags *f)
 
 
 #endif
