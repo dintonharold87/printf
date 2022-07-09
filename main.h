@@ -21,9 +21,24 @@ typedef struct flags
 	int space;
 	int hash;
 } flags;
-
+/**
+ * struct printHandler - struct to choose the right function depending
+ * on the format specifier passed to _printf()
+ * @c: format specifier
+ * @f: pointer to the correct printing function
+ */
+typedef struct printHandler
+{
+	char c;
+	int (*f)(va_list ap, flags *f);
+} ph;
 /* prototype for getting flags or call flags */
-int call_flag(char s, flags *f)
-
+int call_flag(char s, flags *f);
+/* print_string */
+int print_string(va_list l, flags *f);
+/* print character*/
+int print_char(va_list l, flags *f);
+/* print_percent */
+int print_percent(va_list l, flags *f);
 
 #endif
