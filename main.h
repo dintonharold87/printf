@@ -1,5 +1,5 @@
-#ifndef __MAIN_H__
-#define __MAIN_H__
+#ifndef MAIN_H
+#define MAIN_H
 /* header files for using Malloc, varidic function MACROS and write function */
 #include <stdlib.h>
 #include <stdarg.h>
