@@ -17,7 +17,7 @@ int (*call_print(char s))(va_list, flags *)
 		{'c', print_char},
 		{'%', print_percent}
 		};
-	int flag = 14;
+	int flag = 3;
 
 	register int i;
 
