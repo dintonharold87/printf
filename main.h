@@ -34,6 +34,10 @@ typedef struct printHandler
 } ph;
 /* prototype for getting flags or call flags */
 int call_flag(char s, flags *f);
+
+/* call print */
+int (*call_print(char s))(va_list, flags *);
+
 /* print_string */
 int print_string(va_list l, flags *f);
 /* print character*/
