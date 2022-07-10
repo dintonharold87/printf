@@ -51,5 +51,6 @@ int print_decimal(va_list l, flags *f);
 int print_unsigned(va_list l, flags *f);
 /* print_number prototype */
 void print_number(int n);
-
+/* count_digit prototype */
+int count_digit(int i);
 #endif
