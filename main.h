@@ -61,5 +61,8 @@ int print_hex(va_list l, flags *f);
 int print_hex_big(va_list l, flags *f);
 /* print_binary */
 int print_binary(va_list l, flags *f);
+/* print_octal */
+int print_octal(va_list l, flags *f);
+
 
 #endif
