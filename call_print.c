@@ -18,9 +18,10 @@ int (*call_print(char s))(va_list, flags *)
 		{'%', print_percent},
 		{'d', print_decimal},
 		{'i', print_decimal},
-		{'b', print_binary}
+		{'b', print_binary},
+		{'u', print_unsigned}
 		};
-	int flag = 6;
+	int flag = 7;
 
 	register int i;
 
