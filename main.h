@@ -59,5 +59,7 @@ char *convert(unsigned long int num, int base, int lowercase);
 int print_hex(va_list l, flags *f);
 /* print_hex */
 int print_hex_big(va_list l, flags *f);
+/* print_binary */
+int print_binary(va_list l, flags *f);
 
 #endif
