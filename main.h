@@ -47,5 +47,7 @@ int print_char(va_list l, flags *f);
 int print_percent(va_list l, flags *f);
 /* print_decimal */
 int print_decimal(va_list l, flags *f);
+/* int print_unsigned */
+int print_unsigned(va_list l, flags *f);
 
 #endif
