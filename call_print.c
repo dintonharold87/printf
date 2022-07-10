@@ -19,7 +19,8 @@ int (*call_print(char s))(va_list, flags *)
 		{'d', print_decimal},
 		{'i', print_decimal},
 		{'b', print_binary},
-		{'u', print_unsigned}
+		{'u', print_unsigned},
+		{'o', print_octal}
 		};
 	int flag = 7;
 
