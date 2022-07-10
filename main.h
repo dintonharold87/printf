@@ -57,5 +57,7 @@ int count_digit(int i);
 char *convert(unsigned long int num, int base, int lowercase);
 /* print_hex */
 int print_hex(va_list l, flags *f);
+/* print_hex */
+int print_hex_big(va_list l, flags *f);
 
 #endif
