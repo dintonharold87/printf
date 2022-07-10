@@ -29,4 +29,14 @@ These are all the tasks of this project, the ones that are completed link to the
 * Handle the following conversion specifiers:
   - d : converts input into a base 10 integer
   - i : converts input into an integer
+### [2. With a face like mine, I do better in print](./print_bases.c)
+* Handle the following conversion specifiers:
+  - b : the unsigned int argument is converted to binary
+### [3. What one has not experienced, one will never understand in print](./print_bases.c)
+* Handle the following conversion specifiers:
+  - u : converts the input into an unsigned integer
+  - o : converts the input into an octal number
+  - x : converts the input into a hexadecimal number
+  - X : converts the input into a hexadecimal number with capital letters
+
 
