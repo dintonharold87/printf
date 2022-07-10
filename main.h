@@ -55,5 +55,7 @@ void print_number(int n);
 int count_digit(int i);
 /* converter prototype */
 char *convert(unsigned long int num, int base, int lowercase);
+/* print_hex */
+int print_hex(va_list l, flags *f);
 
 #endif
