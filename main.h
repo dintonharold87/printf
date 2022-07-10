@@ -53,4 +53,7 @@ int print_unsigned(va_list l, flags *f);
 void print_number(int n);
 /* count_digit prototype */
 int count_digit(int i);
+/* converter prototype */
+char *convert(unsigned long int num, int base, int lowercase);
+
 #endif
