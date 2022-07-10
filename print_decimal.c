@@ -20,3 +20,19 @@ int print_decimal(va_list l, flags *f)
 	print_number(n);
 	return (res);
 }
+/**
+ * print_unsigned - prints an unsigned integer
+ * @l: va_list of arguments from _printf
+ * @f: pointer to the struct flags determining
+ * if a flag is passed to _printf
+ * Return: number of char printed
+ */
+int print_unsigned(va_list l, flags *f)
+{
+	unsigned int u = va_arg(l, unsigned int);
+	char *str = convert(u, 10, 0);
+
+	(void)f;
+	return (_puts(str));
+}
+
