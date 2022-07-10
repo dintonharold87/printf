@@ -21,9 +21,10 @@ int (*call_print(char s))(va_list, flags *)
 		{'b', print_binary},
 		{'u', print_unsigned},
 		{'o', print_octal},
-		{'x', print_hex}
+		{'x', print_hex},
+		{'X', print_hex_big}
 		};
-	int flag = 9;
+	int flag = 10;
 
 	register int i;
 
