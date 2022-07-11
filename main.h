@@ -67,8 +67,6 @@ int print_octal(va_list l, flags *f);
 int print_bigS(va_list l, flags *f);
 /* print_rev */
 int print_rev(va_list l, flags *f);
-/* print_percent */
-int print_percent(va_list l, flags *f);
 /* print_rot13 */
 int print_rot13(va_list l, flags *f);
 
