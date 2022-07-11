@@ -25,9 +25,10 @@ int (*call_print(char s))(va_list, flags *)
 		{'X', print_hex_big},
 		{'S', print_bigS},
 		{'p', print_address},
-		{'R', print_rot13}
+		{'R', print_rot13},
+		{'r', print_rev}
 		};
-	int flag = 13;
+	int flag = 14;
 
 	register int i;
 
