@@ -41,4 +41,8 @@ These are all the tasks of this project, the ones that are completed link to the
 
 ### [4. Nothing in fine print is ever good news](./_putchar.c)
 * Use a local buffer of 1024 chars in order to call write as little as possible.
+### [5. My weakness is wearing too much leopard print](./print_bigS.c)
+* Handle the following custom conversion specifier:
+  - S : prints the string
+  - Non printable characters (0 < ASCII value < 32 or >= 127) are printed this way: \x, followed by the ASCII code value in hexadecimal (upper case - always 2 characters)
 
