@@ -59,3 +59,6 @@ These are all the tasks of this project, the ones that are completed link to the
 ### [14. The flood of print has turned reading into a process of gulping rather than savoring](./print_bigS.c)
 * Handle the following custom conversion specifier:
   - R : prints the rot13'ed string
+  ### Authors
+* **Dinton Harold Ainemukama** - [dintonharold@gmail.com](https://github.com/dintonharold87)
+* **Collins Ebong** - [ebongcollins@gmail.com](https://github.com/C0llin5)
