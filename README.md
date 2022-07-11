@@ -39,4 +39,6 @@ These are all the tasks of this project, the ones that are completed link to the
   - x : converts the input into a hexadecimal number
   - X : converts the input into a hexadecimal number with capital letters
 
+### [4. Nothing in fine print is ever good news](./_putchar.c)
+* Use a local buffer of 1024 chars in order to call write as little as possible.
 
